@@ -69,6 +69,7 @@ var laughTrack = new Pizzicato.Sound({
 }, function() {
     console.log('sound file loaded!');
 	laughTrack.play();
+	textDidChange("");
 });
 
 
