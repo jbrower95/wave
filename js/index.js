@@ -65,7 +65,7 @@ $("#textarea").on("change keyup paste", function() {
 
 var laughTrack = new Pizzicato.Sound({ 
     source: 'file',
-    options: {path: ['/sound/wave/laugh.wav', '/sound/wave/laugh.mp3'], loop: true}
+    options: {path: ['sound/laugh.wav', 'sound/laugh.mp3'], loop: true}
 }, function() {
     console.log('sound file loaded!');
 });
