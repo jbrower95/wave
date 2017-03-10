@@ -68,7 +68,7 @@ var laughTrack = new Pizzicato.Sound({
     options: {path: ['sound/laugh.wav', 'sound/laugh.mp3'], loop: true}
 }, function() {
     console.log('sound file loaded!');
+	laughTrack.play();
 });
-laughTrack.play();
 
 
